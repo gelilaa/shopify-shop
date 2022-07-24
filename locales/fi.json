@@ -23,7 +23,7 @@
       "login_form_submit": "Siirry",
       "signup_form_email_label": "Sähköposti",
       "signup_form_success": "Lähetämme sinulle sähköpostiviestin juuri ennen avaamista!",
-      "admin_link_html": "Oletko kaupan omistaja? <a href=\"/admin\" class=\"text-link\">Kirjaudu sisään tästä</a>",
+      "admin_link_html": "Oletko kaupan omistaja? <a href=\"\/admin\" class=\"text-link\">Kirjaudu sisään tästä<\/a>",
       "password_link": "Siirry sisään käyttämällä salasanaa",
       "powered_by_shopify_html": "Tämän kaupan alustana on {{ shopify }}"
     },
@@ -47,8 +47,8 @@
       "submit": "Hae",
       "read_more": "Lue lisää",
       "results_count_html": {
-        "one": "{{ count }} osuma haulle <strong>{{ terms }}</strong>",
-        "other": "{{ count }} osumaa haulle <strong>{{ terms }}</strong>"
+        "one": "{{ count }} osuma haulle <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} osumaa haulle <strong>{{ terms }}<\/strong>"
       },
       "products": "Tuotteet",
       "pages_and_articles": "Sivut ja artikkelit"
@@ -90,9 +90,9 @@
       "remove": "Poista",
       "note": "Erityisohjeet myyjälle",
       "taxes_and_shipping_at_checkout": "Verot ja toimituskulut lasketaan kassalla",
-      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">toimituskulut</a>lasketaan kassalla",
+      "taxes_and_shipping_policy_at_checkout_html": "Verot ja <a href=\"{{ link }}\">toimituskulut<\/a>lasketaan kassalla",
       "taxes_included_but_shipping_at_checkout": "Sisältää veron, toimituskulut lasketaan kassalla",
-      "taxes_included_and_shipping_policy_html": "Sisältää veron. <a href=\"{{ link }}\">Toimituskulut</a> lasketaan kassalla.",
+      "taxes_included_and_shipping_policy_html": "Sisältää veron. <a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla.",
       "update": "Päivitä ostoskori",
       "checkout": "Maksu kassalle",
       "empty": "Ostoskorisi on tyhjä.",
@@ -158,7 +158,7 @@
       "address1": "Osoite 1",
       "address2": "Osoite 2",
       "city": "Kaupunki",
-      "country": "Maa/alue",
+      "country": "Maa\/alue",
       "province": "Provinssi",
       "zip": "Postinumero",
       "phone": "Puhelin",
@@ -239,7 +239,7 @@
       "previous_slide": "Edellinen dia",
       "pause_slideshow": "Keskeytä diaesitys",
       "play_slideshow": "Toista diaesitys",
-      "navigation_instructions": "Siirry diaesitykseen vasemmalla/oikealla nuolella tai pyyhkäise vasemmalle/oikealle, jos käytät mobiililaitetta",
+      "navigation_instructions": "Siirry diaesitykseen vasemmalla\/oikealla nuolella tai pyyhkäise vasemmalle\/oikealle, jos käytät mobiililaitetta",
       "slide_number": "Dia {{ slide_number }}, nykyinen"
     },
     "onboarding": {
@@ -277,7 +277,7 @@
       "on_sale_from_html": "Alennusmyynnissä alkaen {{ price }}",
       "from_text_html": "Alkaen {{ price }}",
       "include_taxes": "Sisältää veron.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut</a> lasketaan kassalla.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Toimituskulut<\/a> lasketaan kassalla.",
       "quantity": "Määrä",
       "add_to_cart": "Lisää ostoskoriin",
       "full_details": "Kaikki tiedot",
@@ -287,7 +287,7 @@
         "other": "{{ count }} saatavilla"
       },
       "collection_return": "Takaisin kohteeseen {{ collection }}",
-      "product_added_to_cart_html": "Tuote lisätty ostoskoriin. <span>Näytä ostoskori ja maksa kassalle</span>.",
+      "product_added_to_cart_html": "Tuote lisätty ostoskoriin. <span>Näytä ostoskori ja maksa kassalle<\/span>.",
       "stock_unavailable": "Tuotetta ei voitu lisätä ostoskoriin, koska sitä ei ole tarpeeksi varastossa.",
       "unit_price_label": "Yksikköhinta"
     }
@@ -311,7 +311,7 @@
       "get_directions": "Hae ohjeet",
       "address_error": "Virhe etsittäessä tätä osoitetta",
       "address_no_results": "Tälle osoitteelle ei löytynyt tuloksia",
-      "address_query_limit_html": "Olet ylittänyt Google API: n käyttörajan. Harkitse päivitystä <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium-sopimukseen</a>.",
+      "address_query_limit_html": "Olet ylittänyt Google API: n käyttörajan. Harkitse päivitystä <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium-sopimukseen<\/a>.",
       "auth_error_html": "Google Mapsin API-avaimen tunnistamisessa oli ongelma."
     }
   },

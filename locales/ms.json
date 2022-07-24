@@ -23,7 +23,7 @@
       "login_form_submit": "Masukkan",
       "signup_form_email_label": "E-mel",
       "signup_form_success": "Kami akan menghantar e-mel kepada anda sebelum kami buka!",
-      "admin_link_html": "Adakah anda pemilik kedai? <a href=\"/admin\" class=\"text-link\">Log masuk di sini</a>",
+      "admin_link_html": "Adakah anda pemilik kedai? <a href=\"\/admin\" class=\"text-link\">Log masuk di sini<\/a>",
       "password_link": "Masuk menggunakan kata laluan",
       "powered_by_shopify_html": "Kedai ini akan dikuasakan oleh {{ shopify }}"
     },
@@ -47,8 +47,8 @@
       "submit": "Carian",
       "read_more": "Baca lebih lanjut",
       "results_count_html": {
-        "one": "{{ count }} padanan untuk <strong>{{ terms }}</strong>",
-        "other": "{{ count }} padanan untuk <strong>{{ terms }}</strong>"
+        "one": "{{ count }} padanan untuk <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} padanan untuk <strong>{{ terms }}<\/strong>"
       },
       "products": "Produk",
       "pages_and_articles": "Halaman dan artikel"
@@ -90,9 +90,9 @@
       "remove": "Alih keluar",
       "note": "Arahan khas untuk penjual",
       "taxes_and_shipping_at_checkout": "Cukai dan penghantaran dikira semasa daftar keluar",
-      "taxes_and_shipping_policy_at_checkout_html": "Cukai dan <a href=\"{{ link }}\">penghantaran</a> dikira semasa daftar keluar",
+      "taxes_and_shipping_policy_at_checkout_html": "Cukai dan <a href=\"{{ link }}\">penghantaran<\/a> dikira semasa daftar keluar",
       "taxes_included_but_shipping_at_checkout": "Termasuk cukai dan penghantaran dikira semasa daftar keluar",
-      "taxes_included_and_shipping_policy_html": "Termasuk cukai. <a href=\"{{ link }}\">Penghantaran</a> dikira semasa daftar keluar.",
+      "taxes_included_and_shipping_policy_html": "Termasuk cukai. <a href=\"{{ link }}\">Penghantaran<\/a> dikira semasa daftar keluar.",
       "update": "Kemas Kini Troli",
       "checkout": "Daftar Keluar",
       "empty": "Troli anda kosong pada masa ini.",
@@ -158,9 +158,9 @@
       "address1": "Alamat1",
       "address2": "Alamat2",
       "city": "Bandar",
-      "country": "Negara/Wilayah",
+      "country": "Negara\/Wilayah",
       "province": "Wilayah",
-      "zip": "Poskod/Kod Zip",
+      "zip": "Poskod\/Kod Zip",
       "phone": "Telefon",
       "set_default": "Tetapkan sebagai alamat lalai",
       "add": "Tambah Alamat",
@@ -239,7 +239,7 @@
       "previous_slide": "Slaid sebelumnya",
       "pause_slideshow": "Jeda tayangan slaid",
       "play_slideshow": "Main tayangan slaid",
-      "navigation_instructions": "Gunakan anak panah kiri/kanan untuk menavigasi tayangan slaid atau leret ke kiri/kanan jika menggunakan peranti mudah alih",
+      "navigation_instructions": "Gunakan anak panah kiri\/kanan untuk menavigasi tayangan slaid atau leret ke kiri\/kanan jika menggunakan peranti mudah alih",
       "slide_number": "Slaid {{ slide_number }}, semasa"
     },
     "onboarding": {
@@ -277,7 +277,7 @@
       "on_sale_from_html": "Dalam jualan daripada {{ price }}",
       "from_text_html": "Dari {{ price }}",
       "include_taxes": "Termasuk cukai.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Penghantaran</a> dikira semasa daftar keluar.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Penghantaran<\/a> dikira semasa daftar keluar.",
       "quantity": "Kuantiti",
       "add_to_cart": "Tambah ke Troli",
       "full_details": "Butiran penuh",
@@ -287,7 +287,7 @@
         "other": "{{ count }} tersedia"
       },
       "collection_return": "Kembali kepada {{ collection }}",
-      "product_added_to_cart_html": "Item ditambah ke troli. <span>Lihat troli dan daftar keluar</span>.",
+      "product_added_to_cart_html": "Item ditambah ke troli. <span>Lihat troli dan daftar keluar<\/span>.",
       "stock_unavailable": "Item tidak dapat ditambahkan ke troli anda kerana stok tidak mencukupi.",
       "unit_price_label": "Harga seunit"
     }
@@ -311,7 +311,7 @@
       "get_directions": "Dapatkan arah",
       "address_error": "Ralat mencari alamat itu",
       "address_no_results": "Tiada hasil untuk alamat itu",
-      "address_query_limit_html": "Anda telah melebihi had penggunaan API Google. Pertimbangkan untuk menaik taraf ke <a href=\"https://developers.google.com/maps/premium/usage-limits\">Pelan Premium</a>.",
+      "address_query_limit_html": "Anda telah melebihi had penggunaan API Google. Pertimbangkan untuk menaik taraf ke <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Pelan Premium<\/a>.",
       "auth_error_html": "Terdapat masalah mengesahkan Kunci API Google Maps anda."
     }
   },

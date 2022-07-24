@@ -23,7 +23,7 @@
       "login_form_submit": "दर्ज करें",
       "signup_form_email_label": "ईमेल",
       "signup_form_success": "खुलने से ठीक पहले हम आपको एक ईमेल भेजेंगे!",
-      "admin_link_html": "क्या आप स्टोर के मालिक हैं? <a href=\"/admin\" class=\"text-link\">यहां लॉगिन करें</a>",
+      "admin_link_html": "क्या आप स्टोर के मालिक हैं? <a href=\"\/admin\" class=\"text-link\">यहां लॉगिन करें<\/a>",
       "password_link": "पासवर्ड का उपयोग करके प्रवेश करें",
       "powered_by_shopify_html": "यह दुकान {{ shopify }} द्वारा संचालित होगी"
     },
@@ -47,8 +47,8 @@
       "submit": "खोजें",
       "read_more": "और अधिक पढ़ें",
       "results_count_html": {
-        "one": "<strong>{{ terms }}</strong> के लिए {{ count }} मैच",
-        "other": "<strong>{{ terms }}</strong> के लिए {{ count }} मैच"
+        "one": "<strong>{{ terms }}<\/strong> के लिए {{ count }} मैच",
+        "other": "<strong>{{ terms }}<\/strong> के लिए {{ count }} मैच"
       },
       "products": "उत्पाद",
       "pages_and_articles": "पेज और लेख"
@@ -90,9 +90,9 @@
       "remove": "निकालें",
       "note": "विक्रेता के लिए खास निर्देश",
       "taxes_and_shipping_at_checkout": "चेकआउट के दौरान कर और शिपिंग गणना की गई",
-      "taxes_and_shipping_policy_at_checkout_html": "चेकआउट के दौरान कर और <a href=\"{{ link }}\">शिपिंग</a> गणना की गई",
+      "taxes_and_shipping_policy_at_checkout_html": "चेकआउट के दौरान कर और <a href=\"{{ link }}\">शिपिंग<\/a> गणना की गई",
       "taxes_included_but_shipping_at_checkout": "चेकआउट के दौरान कर शामिल किया और शिपिंग की गणना की गई",
-      "taxes_included_and_shipping_policy_html": "कर शामिल है. चेकआउट के दौरान <a href=\"{{ link }}\">शिपिंग</a> की गणना की गई",
+      "taxes_included_and_shipping_policy_html": "कर शामिल है. चेकआउट के दौरान <a href=\"{{ link }}\">शिपिंग<\/a> की गणना की गई",
       "update": "कार्ट अपडेट करें",
       "checkout": "चेक आउट करें",
       "empty": "आपका कार्ट वर्तमान में रिक्त है.",
@@ -158,9 +158,9 @@
       "address1": "पता1",
       "address2": "पता 2",
       "city": "शहर",
-      "country": "देश / क्षेत्र",
+      "country": "देश \/ क्षेत्र",
       "province": "प्रांत",
-      "zip": "डाक/पिन कोड",
+      "zip": "डाक\/पिन कोड",
       "phone": "फ़ोन",
       "set_default": "डिफ़ॉल्ट पता के रूप में सेट करें",
       "add": "पता जोड़ें",
@@ -239,7 +239,7 @@
       "previous_slide": "पिछली स्लाइड",
       "pause_slideshow": "स्लाइडशो रोकें",
       "play_slideshow": "स्लाइडशो चलाएं",
-      "navigation_instructions": "यदि मोबाइल डिवाइस का उपयोग करते है तो स्लाइड शो या बाएं / दाएं स्वाइप करने के लिए बाएं / दाएं तीर का उपयोग करें",
+      "navigation_instructions": "यदि मोबाइल डिवाइस का उपयोग करते है तो स्लाइड शो या बाएं \/ दाएं स्वाइप करने के लिए बाएं \/ दाएं तीर का उपयोग करें",
       "slide_number": "वर्तमान में {{ slide_number }} स्लाइड"
     },
     "onboarding": {
@@ -277,7 +277,7 @@
       "on_sale_from_html": "{{ price }} से सेल में",
       "from_text_html": "{{ price }} से",
       "include_taxes": "कर शामिल है.",
-      "shipping_policy_html": "चेकआउट के दौरान <a href=\"{{ link }}\">शिपिंग</a> की गणना की गई",
+      "shipping_policy_html": "चेकआउट के दौरान <a href=\"{{ link }}\">शिपिंग<\/a> की गणना की गई",
       "quantity": "मात्रा",
       "add_to_cart": "कार्ट में जोड़ें",
       "full_details": "पूरा विवरण",
@@ -287,7 +287,7 @@
         "other": "{{ count }} उपलब्ध"
       },
       "collection_return": "{{ collection }} पर वापस जाएं",
-      "product_added_to_cart_html": "आइटम कार्ट में जोड़ी गई. <span>कार्ट देखें और चेक आउट करें</span>.",
+      "product_added_to_cart_html": "आइटम कार्ट में जोड़ी गई. <span>कार्ट देखें और चेक आउट करें<\/span>.",
       "stock_unavailable": "स्टॉक में पर्याप्त मात्रा में उपलब्ध नहीं होने की वजह से आइटम आपके कार्ट में नहीं जोड़ी जा सकी.",
       "unit_price_label": "यूनिट मूल्य"
     }
@@ -311,7 +311,7 @@
       "get_directions": "दिशा-निर्देश प्राप्त करें",
       "address_error": "उस पते को देखने में त्रुटि हुई",
       "address_no_results": "उस पते का कोई परिणाम नहीं है",
-      "address_query_limit_html": "आपने Google API उपयोग की सीमा पार कर ली है. <a href=\"https://developers.google.com/maps/premium/usage-limits\">प्रीमियम योजना</a> में अपग्रेड करने पर विचार करें.",
+      "address_query_limit_html": "आपने Google API उपयोग की सीमा पार कर ली है. <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">प्रीमियम योजना<\/a> में अपग्रेड करने पर विचार करें.",
       "auth_error_html": "आपकी Google मानचित्र API कुंजी को प्रमाणित करने में एक समस्या थी."
     }
   },

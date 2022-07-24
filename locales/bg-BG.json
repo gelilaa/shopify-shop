@@ -23,7 +23,7 @@
       "login_form_submit": "Въведете",
       "signup_form_email_label": "Имейл",
       "signup_form_success": "Ще ви изпратим имейл точно преди да отворим.",
-      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"/admin\" class=\"text-link\">Влезте тук</a>",
+      "admin_link_html": "Вие ли сте собственикът на магазина? <a href=\"\/admin\" class=\"text-link\">Влезте тук<\/a>",
       "password_link": "Влизане с парола",
       "powered_by_shopify_html": "Този магазин ще се поддържа от {{ shopify }}"
     },
@@ -47,8 +47,8 @@
       "submit": "Търсене",
       "read_more": "Прочетете още",
       "results_count_html": {
-        "one": "{{ count }} резултат за <strong>{{ terms }}</strong>",
-        "other": "{{ count }} резултата за <strong>{{ terms }}</strong>"
+        "one": "{{ count }} резултат за <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} резултата за <strong>{{ terms }}<\/strong>"
       },
       "products": "Продукти",
       "pages_and_articles": "Страници и статии"
@@ -90,9 +90,9 @@
       "remove": "Премахване",
       "note": "Специални инструкции за продавача",
       "taxes_and_shipping_at_checkout": "Данъците и доставката се изчисляват при плащане",
-      "taxes_and_shipping_policy_at_checkout_html": "Данъците и <a href=\"{{ link }}\">доставката</a> се изчисляват при плащане",
+      "taxes_and_shipping_policy_at_checkout_html": "Данъците и <a href=\"{{ link }}\">доставката<\/a> се изчисляват при плащане",
       "taxes_included_but_shipping_at_checkout": "Данъците са включени, а доставката се изчислява при плащане",
-      "taxes_included_and_shipping_policy_html": "С включени данъци. <a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
+      "taxes_included_and_shipping_policy_html": "С включени данъци. <a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане.",
       "update": "Актуализиране на количката",
       "checkout": "Преминаване към плащане",
       "empty": "Количката ви в момента е празна.",
@@ -158,7 +158,7 @@
       "address1": "Адрес1",
       "address2": "Адрес2",
       "city": "Град",
-      "country": "Държава/регион",
+      "country": "Държава\/регион",
       "province": "Провинция",
       "zip": "Пощенски код",
       "phone": "Телефон",
@@ -239,7 +239,7 @@
       "previous_slide": "Предишен слайд",
       "pause_slideshow": "Пауза на слайдшоуто",
       "play_slideshow": "Възпроизвеждане на слайдшоу",
-      "navigation_instructions": "Използвайте стрелките за наляво/надясно, за да навигирате в слайдшоуто, или плъзнете с пръст наляво/надясно, ако използвате мобилно устройство",
+      "navigation_instructions": "Използвайте стрелките за наляво\/надясно, за да навигирате в слайдшоуто, или плъзнете с пръст наляво\/надясно, ако използвате мобилно устройство",
       "slide_number": "Слайд {{ slide_number }}, в момента"
     },
     "onboarding": {
@@ -277,7 +277,7 @@
       "on_sale_from_html": "Разпродажба от {{ price }}",
       "from_text_html": "От {{ price }}",
       "include_taxes": "С включени данъци.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Доставката</a> се изчислява при плащане.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Доставката<\/a> се изчислява при плащане.",
       "quantity": "Количество",
       "add_to_cart": "Добавяне към количката",
       "full_details": "Пълни подробности",
@@ -287,7 +287,7 @@
         "other": "В наличност: {{ count }}"
       },
       "collection_return": "Назад към {{ collection }}",
-      "product_added_to_cart_html": "Артикулът е добавен в количката. <span>Преглед на количката и преминаване към плащане</span>.",
+      "product_added_to_cart_html": "Артикулът е добавен в количката. <span>Преглед на количката и преминаване към плащане<\/span>.",
       "stock_unavailable": "Артикулът не е добавен към количката, защото няма достатъчна наличност.",
       "unit_price_label": "Единична цена"
     }
@@ -311,7 +311,7 @@
       "get_directions": "Получаване на указания",
       "address_error": "Грешка при търсенето на този адрес",
       "address_no_results": "За този адрес няма резултати",
-      "address_query_limit_html": "Превишихте ограничението за използване на Google API. Помислете за надграждане до <a href=\"https://developers.google.com/maps/premium/usage-limits\">план Premium</a>.",
+      "address_query_limit_html": "Превишихте ограничението за използване на Google API. Помислете за надграждане до <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">план Premium<\/a>.",
       "auth_error_html": "Възникна проблем при удостоверяването на вашия API ключ за Google Карти."
     }
   },

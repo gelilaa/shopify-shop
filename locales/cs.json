@@ -23,7 +23,7 @@
       "login_form_submit": "Zadat",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Těsně než otevřeme, pošleme vám e-mail!",
-      "admin_link_html": "Jste majitelem obchodu? <a href=\"/admin\" class=\"text-link\">Přihlaste se zde</a>",
+      "admin_link_html": "Jste majitelem obchodu? <a href=\"\/admin\" class=\"text-link\">Přihlaste se zde<\/a>",
       "password_link": "Vstoupit pomocí hesla",
       "powered_by_shopify_html": "Tento obchod poběží na platformě {{ shopify }}"
     },
@@ -47,10 +47,10 @@
       "submit": "Hledat",
       "read_more": "Číst dál",
       "results_count_html": {
-        "one": "{{ count }} výsledek pro <strong>{{ terms }}</strong>",
-        "other": "{{ count }} výsledků pro <strong>{{ terms }}</strong>",
-        "few": "{{ count }} výsledků pro <strong>{{ terms }}</strong>",
-        "many": "{{ count }} výsledků pro <strong>{{ terms }}</strong>"
+        "one": "{{ count }} výsledek pro <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} výsledků pro <strong>{{ terms }}<\/strong>",
+        "few": "{{ count }} výsledků pro <strong>{{ terms }}<\/strong>",
+        "many": "{{ count }} výsledků pro <strong>{{ terms }}<\/strong>"
       },
       "products": "Produkty",
       "pages_and_articles": "Stránky a články"
@@ -94,9 +94,9 @@
       "remove": "Odstranit",
       "note": "Zvláštní pokyny pro prodávajícího",
       "taxes_and_shipping_at_checkout": "Daně a poštovné se vypočítají v pokladně",
-      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">poštovné</a> se vypočítá v pokladně",
+      "taxes_and_shipping_policy_at_checkout_html": "Daně a <a href=\"{{ link }}\">poštovné<\/a> se vypočítá v pokladně",
       "taxes_included_but_shipping_at_checkout": "Daně a poštovné se vypočítají v pokladně",
-      "taxes_included_and_shipping_policy_html": "Včetně daní. <a href=\"{{ link }}\">Poštovné</a> se vypočítá v pokladně.",
+      "taxes_included_and_shipping_policy_html": "Včetně daní. <a href=\"{{ link }}\">Poštovné<\/a> se vypočítá v pokladně.",
       "update": "Aktualizovat košík",
       "checkout": "Pokladna",
       "empty": "Váš košík je momentálně prázdný.",
@@ -162,7 +162,7 @@
       "address1": "adresa 1",
       "address2": "adresa 2 (volitelné)",
       "city": "Město",
-      "country": "Země/region",
+      "country": "Země\/region",
       "province": "Provincie",
       "zip": "PSČ",
       "phone": "Telefon",
@@ -281,7 +281,7 @@
       "on_sale_from_html": "Na prodej od {{ price }}",
       "from_text_html": "Z {{ price }}",
       "include_taxes": "Včetně daní.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Poštovné</a> se vypočítá v pokladně.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Poštovné<\/a> se vypočítá v pokladně.",
       "quantity": "Množství",
       "add_to_cart": "Přidat do košíku",
       "full_details": "Úplné podrobnosti",
@@ -293,7 +293,7 @@
         "many": "K dispozici: {{ count }}"
       },
       "collection_return": "Zpět do {{ collection }}",
-      "product_added_to_cart_html": "Položka přidána do košíku. <span>Zobrazit košík a přejít k pokladně</span>.",
+      "product_added_to_cart_html": "Položka přidána do košíku. <span>Zobrazit košík a přejít k pokladně<\/span>.",
       "stock_unavailable": "Položku nebylo možné přidat do košíku, protože skladem není dostatečné množství.",
       "unit_price_label": "Jednotková cena"
     }
@@ -317,7 +317,7 @@
       "get_directions": "Získat pokyny",
       "address_error": "Chyba při hledání této adresy",
       "address_no_results": "Žádné výsledky pro tuto adresu",
-      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https://developers.google.com/maps/premium/usage-limits\">plán Premium</a>.",
+      "address_query_limit_html": "Je překročen limit použití API Google. Zvažte upgrade na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">plán Premium<\/a>.",
       "auth_error_html": "Došlo k problému při ověření vašeho klíče API Map Google."
     }
   },

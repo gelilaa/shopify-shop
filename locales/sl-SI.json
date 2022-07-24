@@ -23,7 +23,7 @@
       "login_form_submit": "Vstop",
       "signup_form_email_label": "E-poštni naslov",
       "signup_form_success": "Tik pred otvoritvijo vam bomo poslali e-pošto.",
-      "admin_link_html": "Ali ste lastnik trgovine? <a href=\"/admin\" class=\"text-link\">Prijavite se tukaj</a>",
+      "admin_link_html": "Ali ste lastnik trgovine? <a href=\"\/admin\" class=\"text-link\">Prijavite se tukaj<\/a>",
       "password_link": "Vstop z geslom",
       "powered_by_shopify_html": "To trgovino bo omogočala platforma {{ shopify }}"
     },
@@ -47,10 +47,10 @@
       "submit": "Išči",
       "read_more": "Več o tem",
       "results_count_html": {
-        "one": "{{ count }} ujemanje za <strong>{{ terms }}</strong>",
-        "other": "Št. ujemanj za <strong>{{ terms }}</strong>: {{ count }}",
-        "few": "Št. ujemanj za <strong>{{ terms }}</strong>: {{ count }}",
-        "two": "Št. ujemanj za <strong>{{ terms }}</strong>: {{ count }}"
+        "one": "{{ count }} ujemanje za <strong>{{ terms }}<\/strong>",
+        "other": "Št. ujemanj za <strong>{{ terms }}<\/strong>: {{ count }}",
+        "few": "Št. ujemanj za <strong>{{ terms }}<\/strong>: {{ count }}",
+        "two": "Št. ujemanj za <strong>{{ terms }}<\/strong>: {{ count }}"
       },
       "products": "Izdelki",
       "pages_and_articles": "Strani in članki"
@@ -94,9 +94,9 @@
       "remove": "Odstrani",
       "note": "Posebna navodila za prodajalca",
       "taxes_and_shipping_at_checkout": "Davki in dostava se obračunajo ob zaključku nakupa",
-      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\">dostava</a> se obračunajo ob zaključku nakupa",
+      "taxes_and_shipping_policy_at_checkout_html": "Davki in <a href=\"{{ link }}\">dostava<\/a> se obračunajo ob zaključku nakupa",
       "taxes_included_but_shipping_at_checkout": "Vključen davek in dostava se obračunata ob zaključku nakupa",
-      "taxes_included_and_shipping_policy_html": "Vključno z davkom. <a href=\"{{ link }}\">Dostava</a> se obračuna ob zaključku nakupa.",
+      "taxes_included_and_shipping_policy_html": "Vključno z davkom. <a href=\"{{ link }}\">Dostava<\/a> se obračuna ob zaključku nakupa.",
       "update": "Posodobi košarico",
       "checkout": "Zaključi nakup",
       "empty": "Vaša košarica je trenutno prazna.",
@@ -162,7 +162,7 @@
       "address1": "Naslov 1",
       "address2": "Naslov 2",
       "city": "Kraj",
-      "country": "Država/regija",
+      "country": "Država\/regija",
       "province": "Območje",
       "zip": "Poštna številka",
       "phone": "Telefonska številka",
@@ -243,7 +243,7 @@
       "previous_slide": "Prejšnji diapozitiv",
       "pause_slideshow": "Zaustavi diaprojekcijo",
       "play_slideshow": "Predvajaj diaprojekcijo",
-      "navigation_instructions": "Za pomikanje po diaprojekciji uporabite tipki levo/desno oz. podrsnite v levo/desno, če uporabljate mobilno napravo",
+      "navigation_instructions": "Za pomikanje po diaprojekciji uporabite tipki levo\/desno oz. podrsnite v levo\/desno, če uporabljate mobilno napravo",
       "slide_number": "Diapozitiv {{ slide_number }}, trenutni"
     },
     "onboarding": {
@@ -281,7 +281,7 @@
       "on_sale_from_html": "Že od {{ price }}",
       "from_text_html": "Od {{ price }}",
       "include_taxes": "Vključno z davkom.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Dostava</a> se obračuna ob zaključku nakupa.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Dostava<\/a> se obračuna ob zaključku nakupa.",
       "quantity": "Količina",
       "add_to_cart": "Dodaj v košarico",
       "full_details": "Vse podrobnosti",
@@ -293,7 +293,7 @@
         "two": "Na voljo: {{ count }}"
       },
       "collection_return": "Nazaj na {{ collection }}",
-      "product_added_to_cart_html": "Izdelek je dodan v košarico. <span>Oglejte si košarico in zaključite nakup</span>.",
+      "product_added_to_cart_html": "Izdelek je dodan v košarico. <span>Oglejte si košarico in zaključite nakup<\/span>.",
       "stock_unavailable": "Izdelka ni bilo mogoče dodati v košarico, ker jih ni dovolj na zalogi.",
       "unit_price_label": "Cena na enoto"
     }
@@ -317,7 +317,7 @@
       "get_directions": "Navodila",
       "address_error": "Pri iskanju tega naslova je prišlo do napake",
       "address_no_results": "Ni rezultatov za ta naslov",
-      "address_query_limit_html": "Prekoračili ste omejitev uporabe Googlovega API-ja. Razmislite o nadgradnji na <a href=\"https://developers.google.com/maps/premium/usage-limits\">paket Premium</a>.",
+      "address_query_limit_html": "Prekoračili ste omejitev uporabe Googlovega API-ja. Razmislite o nadgradnji na <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">paket Premium<\/a>.",
       "auth_error_html": "Prišlo je do težave pri preverjanju pristnosti ključa API-ja za Zemljevide Google."
     }
   },

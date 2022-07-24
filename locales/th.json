@@ -23,7 +23,7 @@
       "login_form_submit": "ป้อน",
       "signup_form_email_label": "อีเมล",
       "signup_form_success": "เราจะส่งอีเมลแจ้งคุณก่อนที่ร้านจะเปิด!",
-      "admin_link_html": "คุณเป็นเจ้าของร้านใช่ไหม <a href=\"/admin\" class=\"text-link\">เข้าสู่ระบบที่นี่</a>",
+      "admin_link_html": "คุณเป็นเจ้าของร้านใช่ไหม <a href=\"\/admin\" class=\"text-link\">เข้าสู่ระบบที่นี่<\/a>",
       "password_link": "เข้าโดยใช้รหัสผ่าน",
       "powered_by_shopify_html": "ร้านค้านี้จะได้รับการสนับสนุนจาก {{ shopify }}"
     },
@@ -47,8 +47,8 @@
       "submit": "ค้นหา",
       "read_more": "อ่านเพิ่มเติม",
       "results_count_html": {
-        "one": "ตรงกัน {{ count }} รายการสำหรับ <strong>{{ terms }}</strong>",
-        "other": "ตรงกัน {{ count }} รายการสำหรับ <strong>{{ terms }}</strong>"
+        "one": "ตรงกัน {{ count }} รายการสำหรับ <strong>{{ terms }}<\/strong>",
+        "other": "ตรงกัน {{ count }} รายการสำหรับ <strong>{{ terms }}<\/strong>"
       },
       "products": "สินค้า",
       "pages_and_articles": "เพจและบทความ"
@@ -90,9 +90,9 @@
       "remove": "ลบออก",
       "note": "คำแนะนำพิเศษสำหรับผู้ขาย",
       "taxes_and_shipping_at_checkout": "ภาษีและค่าจัดส่งที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
-      "taxes_and_shipping_policy_at_checkout_html": "ภาษีและ<a href=\"{{ link }}\">ค่าจัดส่ง</a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
+      "taxes_and_shipping_policy_at_checkout_html": "ภาษีและ<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
       "taxes_included_but_shipping_at_checkout": "รวมภาษีและค่าจัดส่งที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
-      "taxes_included_and_shipping_policy_html": "รวมภาษี <a href=\"{{ link }}\">ค่าจัดส่ง</a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
+      "taxes_included_and_shipping_policy_html": "รวมภาษี <a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
       "update": "อัปเดตตะกร้าสินค้า",
       "checkout": "การชำระเงิน",
       "empty": "ตะกร้าของคุณว่างอยู่ในขณะนี้",
@@ -158,7 +158,7 @@
       "address1": "ที่อยู่ 1",
       "address2": "ที่อยู่ 2",
       "city": "เมือง",
-      "country": "ประเทศ/ภูมิภาค",
+      "country": "ประเทศ\/ภูมิภาค",
       "province": "จังหวัด",
       "zip": "รหัสไปรษณีย์",
       "phone": "โทรศัพท์",
@@ -239,7 +239,7 @@
       "previous_slide": "สไลด์ก่อนหน้า",
       "pause_slideshow": "หยุดสไลด์โชว์ชั่วคราว",
       "play_slideshow": "เล่นสไลด์โชว์",
-      "navigation_instructions": "ใช้ลูกศรซ้าย/ขวาเพื่อดูสไลด์โชว์ หรือปัดไปทางซ้าย/ขวาหากคุณกำลังใช้อุปกรณ์มือถือ",
+      "navigation_instructions": "ใช้ลูกศรซ้าย\/ขวาเพื่อดูสไลด์โชว์ หรือปัดไปทางซ้าย\/ขวาหากคุณกำลังใช้อุปกรณ์มือถือ",
       "slide_number": "สไลด์ที่ {{ slide_number }} ปัจจุบัน"
     },
     "onboarding": {
@@ -277,7 +277,7 @@
       "on_sale_from_html": "ลดราคาจาก {{ price }}",
       "from_text_html": "จาก {{ price }}",
       "include_taxes": "รวมภาษี",
-      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าจัดส่ง</a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
+      "shipping_policy_html": "<a href=\"{{ link }}\">ค่าจัดส่ง<\/a>ที่คิดคำนวณในระหว่างขั้นตอนการชำระเงิน",
       "quantity": "จำนวน",
       "add_to_cart": "เพิ่มลงในตะกร้าสินค้า",
       "full_details": "รายละเอียดแบบเต็ม",
@@ -287,7 +287,7 @@
         "other": "พร้อมจำหน่าย {{ count }} ชิ้น"
       },
       "collection_return": "กลับไปยัง {{ collection }}",
-      "product_added_to_cart_html": "สินค้าที่เพิ่มลงในตะกร้าสินค้า <span>ดูตะกร้าสินค้าและชำระเงิน</span>",
+      "product_added_to_cart_html": "สินค้าที่เพิ่มลงในตะกร้าสินค้า <span>ดูตะกร้าสินค้าและชำระเงิน<\/span>",
       "stock_unavailable": "ไม่สามารถเพิ่มรายการลงในตะกร้าสินค้าของคุณได้เนื่องจากมีสินค้าในคลังไม่เพียงพอ",
       "unit_price_label": "ราคาต่อหน่วย"
     }
@@ -311,7 +311,7 @@
       "get_directions": "ถามเส้นทาง",
       "address_error": "เกิดข้อผิดพลาดในการค้นหาที่อยู่ดังกล่าว",
       "address_no_results": "ไม่พบผลลัพธ์สำหรับที่อยู่ดังกล่าว",
-      "address_query_limit_html": "คุณใช้ Google API ของคุณเกินขีดจำกัดการใช้งานแล้ว ลองพิจารณาอัปเกรดเป็น<a href=\"https://developers.google.com/maps/premium/usage-limits\">แผนพรีเมียม</a>",
+      "address_query_limit_html": "คุณใช้ Google API ของคุณเกินขีดจำกัดการใช้งานแล้ว ลองพิจารณาอัปเกรดเป็น<a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">แผนพรีเมียม<\/a>",
       "auth_error_html": "เกิดปัญหาในการยืนยันคีย์ Google Maps API ของคุณ"
     }
   },
