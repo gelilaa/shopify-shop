@@ -1,0 +1,15 @@
+development:
+  password: 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
+  theme_id: 131750101171
+  store: https://learn-testnow.myshopify.com
+
+staging:
+  password: ${SHOPIFY_API_PASSWORD}
+  theme_id: ${STAGING_THEME_ID}
+  store:  https://learn-testnow.myshopify.com
+
+production:
+  password: ${SHOPIFY_API_PASSWORD}
+  theme_id: ${PRODUCTION_THEME_ID}
+  store:  https://learn-testnow.myshopify.com
+  addwsd
