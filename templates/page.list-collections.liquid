@@ -1,0 +1,52 @@
+{
+<div class="page-width">
+ <h1 class="small--text-center">{{ page.title }}</h1>
+ <div class="content-block">
+   <div class="rte rte--indented-images">
+     {{ page.content }}
+   </div>
+ </div>
+
+ {%- assign collection_count = 0 -%}
+
+ {%- for link in linklists[page.handle].links -%}
+   {%- if link.type == 'collection_link' -%}
+     {%- assign collection_count = collection_count | plus: 1 -%}
+   {%- endif -%}
+ {%- endfor -%}
+
+ {% assign number_rows = 1 %}
+
+ {% case collection_count %}
+   {% when 1 %}
+     {% assign grid_item_width = 'medium-up--one-half' %}
+     {% assign height = 450 %}
+   {% when 2 %}
+     {% assign grid_item_width = 'medium-up--one-half' %}
+     {% assign height = 450 %}
+   {% when 3 %}
+     {% assign grid_item_width = 'medium-up--one-third' %}
+     {% assign height = 330 %}
+   {% when 4 %}
+     {% assign grid_item_width = 'medium-up--one-quarter' %}
+     {% assign height = 235 %}
+   {% else %}
+     {% assign grid_item_width = 'medium-up--one-third' %}
+     {% assign height = 330 %}
+     {% assign number_rows = collection_count | divided_by: 3.0 | ceil %}
+ {% endcase %}
+
+ <div class="grid grid--no-gutters grid--uniform collection" data-number-rows="{{ number_rows }}">
+   {% assign row_number = 1 %}
+   {%- for link in linklists[page.handle].links -%}
+     {%- if link.type == 'collection_link' -%}
+       {%- assign featured_collection = collections[link.object.handle] -%}
+       {% if collection_count > 4 and forloop.index > 3 %}
+         {% assign row_number = forloop.index | divided_by: 3.0 | ceil %}
+       {% endif %}
+       {% include 'collection-grid-item' with stretch_collection_image: false, height: height %}
+     {%- endif -%}
+   {%- endfor -%}
+ </div>
+
+</div>
