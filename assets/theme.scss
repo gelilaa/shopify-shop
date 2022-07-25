@@ -228,7 +228,7 @@ $grid-breakpoint-has-push: ($medium-up);
 /*================ Color Variables ================*/
 
 // Button colors
-$color-btn-primary: #006eff;
+$color-btn-primary: #7340eb;
 $color-btn-primary-hover: adaptive-color($color-btn-primary, 10%);
 $color-btn-primary-active: adaptive-color($color-btn-primary-hover, 10%);
 $color-btn-primary-text: #ffffff;
@@ -249,14 +249,14 @@ $color-accent-text: #ffffff;
 
 // General colors
 $color-body-text: #666666;
-$color-body: #f7f7f7;
+$color-body: #5b4848;
 $color-content: #ffffff;
 $color-border: $color-body;
 $color-border-body-darken: darken($color-body, 10%);
 $color-heading: #030303;
 
 // Header and footer
-$color-header: #0000ff;
+$color-header: #ececf2;
 $color-header-border: adaptive-color($color-header, 5%);
 $color-header-links: #ffffff;
 $color-header-links-rgba: rgba($color-header-links, 0.6);
