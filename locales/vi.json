@@ -23,7 +23,7 @@
       "login_form_submit": "Nhập",
       "signup_form_email_label": "Email",
       "signup_form_success": "Chúng tôi sẽ gửi email cho bạn ngay trước khi khai trương!",
-      "admin_link_html": "Bạn có phải chủ cửa hàng không? <a href=\"/admin\" class=\"text-link\">Đăng nhập ở đây</a>",
+      "admin_link_html": "Bạn có phải chủ cửa hàng không? <a href=\"\/admin\" class=\"text-link\">Đăng nhập ở đây<\/a>",
       "password_link": "Vào bằng mật khẩu",
       "powered_by_shopify_html": "Cửa hàng này sẽ do {{ shopify }} hỗ trợ"
     },
@@ -47,8 +47,8 @@
       "submit": "Tìm kiếm",
       "read_more": "Đọc thêm",
       "results_count_html": {
-        "one": "{{ count }} khớp với <strong>{{ terms }}</strong>",
-        "other": "{{ count }} khớp với <strong>{{ terms }}</strong>"
+        "one": "{{ count }} khớp với <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} khớp với <strong>{{ terms }}<\/strong>"
       },
       "products": "Sản phẩm",
       "pages_and_articles": "Trang và bài viết"
@@ -90,9 +90,9 @@
       "remove": "Xóa",
       "note": "Hướng dẫn đặc biệt dành cho người bán",
       "taxes_and_shipping_at_checkout": "Thuế và phí vận chuyển được tính khi thanh toán",
-      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\">phí vận chuyển</a> được tính khi thanh toán",
+      "taxes_and_shipping_policy_at_checkout_html": "Thuế và <a href=\"{{ link }}\">phí vận chuyển<\/a> được tính khi thanh toán",
       "taxes_included_but_shipping_at_checkout": "Đã bao gồm thuế và phí vận chuyển được tính khi thanh toán",
-      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\">Phí vận chuyển</a> được tính khi thanh toán.",
+      "taxes_included_and_shipping_policy_html": "Đã bao gồm thuế. <a href=\"{{ link }}\">Phí vận chuyển<\/a> được tính khi thanh toán.",
       "update": "Cập nhật giỏ hàng",
       "checkout": "Thanh toán",
       "empty": "Giỏ hàng hiện đang trống.",
@@ -158,9 +158,9 @@
       "address1": "Địa chỉ 1",
       "address2": "Địa chỉ 2",
       "city": "Thành phố",
-      "country": "Quốc gia/Vùng",
+      "country": "Quốc gia\/Vùng",
       "province": "Tỉnh",
-      "zip": "Mã bưu chính/mã ZIP",
+      "zip": "Mã bưu chính\/mã ZIP",
       "phone": "Điện thoại",
       "set_default": "Đặt làm địa chỉ mặc định",
       "add": "Thêm địa chỉ",
@@ -239,7 +239,7 @@
       "previous_slide": "Trang chiếu trước",
       "pause_slideshow": "Tạm dừng bản trình chiếu",
       "play_slideshow": "Phát bản trình chiếu",
-      "navigation_instructions": "Sử dụng mũi tên trái/phải để điều hướng bản trình chiếu hoặc vuốt sang trái/phải nếu đang dùng thiết bị di động",
+      "navigation_instructions": "Sử dụng mũi tên trái\/phải để điều hướng bản trình chiếu hoặc vuốt sang trái\/phải nếu đang dùng thiết bị di động",
       "slide_number": "Trang chiếu {{ slide_number }}, hiện tại"
     },
     "onboarding": {
@@ -277,7 +277,7 @@
       "on_sale_from_html": "Giảm giá từ {{ price }}",
       "from_text_html": "Từ {{ price }}",
       "include_taxes": "Đã bao gồm thuế.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển</a> được tính khi thanh toán.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Phí vận chuyển<\/a> được tính khi thanh toán.",
       "quantity": "Số lượng",
       "add_to_cart": "Thêm vào Giỏ hàng",
       "full_details": "Chi tiết đầy đủ",
@@ -287,7 +287,7 @@
         "other": "Hiện có {{ count }}"
       },
       "collection_return": "Quay lại {{ collection }}",
-      "product_added_to_cart_html": "Mặt hàng đã thêm vào giỏ hàng. <span>Xem giỏ hàng và thanh toán</span>.",
+      "product_added_to_cart_html": "Mặt hàng đã thêm vào giỏ hàng. <span>Xem giỏ hàng và thanh toán<\/span>.",
       "stock_unavailable": "Không thể thêm mặt hàng vào giỏ hàng vì không có đủ hàng lưu kho.",
       "unit_price_label": "Đơn giá"
     }
@@ -311,7 +311,7 @@
       "get_directions": "Nhận chỉ dẫn",
       "address_error": "Lỗi tìm kiếm địa chỉ đó",
       "address_no_results": "Không có kết quả cho địa chỉ đó",
-      "address_query_limit_html": "Bạn đã vượt quá giới hạn sử dụng API của Google. Cân nhắc nâng cấp lên <a href=\"https://developers.google.com/maps/premium/usage-limits\">Gói Premium</a>.",
+      "address_query_limit_html": "Bạn đã vượt quá giới hạn sử dụng API của Google. Cân nhắc nâng cấp lên <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Gói Premium<\/a>.",
       "auth_error_html": "Đã xảy ra sự cố khi xác thực Khóa API của Google Maps."
     }
   },

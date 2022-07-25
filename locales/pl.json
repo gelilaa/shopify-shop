@@ -23,7 +23,7 @@
       "login_form_submit": "Enter",
       "signup_form_email_label": "E-mail",
       "signup_form_success": "Wyślemy Ci wiadomość e-mail tuż przed otwarciem!",
-      "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"/admin\" class=\"text-link\">Zaloguj się tutaj</a>",
+      "admin_link_html": "Czy jesteś właścicielem sklepu? <a href=\"\/admin\" class=\"text-link\">Zaloguj się tutaj<\/a>",
       "password_link": "Wejdź, wpisując hasło",
       "powered_by_shopify_html": "Ten sklep będzie obsługiwany przez {{ shopify }}"
     },
@@ -47,10 +47,10 @@
       "submit": "Szukaj",
       "read_more": "Dowiedz się więcej",
       "results_count_html": {
-        "one": "{{ count }} dopasowanie dla <strong>{{ terms }}</strong>",
-        "other": "{{ count }} dopasowania(-ań) dla <strong>{{ terms }}</strong>",
-        "few": "{{ count }} dopasowania(-ań) dla <strong>{{ terms }}</strong>",
-        "many": "{{ count }} dopasowania(-ań) dla <strong>{{ terms }}</strong>"
+        "one": "{{ count }} dopasowanie dla <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} dopasowania(-ań) dla <strong>{{ terms }}<\/strong>",
+        "few": "{{ count }} dopasowania(-ań) dla <strong>{{ terms }}<\/strong>",
+        "many": "{{ count }} dopasowania(-ań) dla <strong>{{ terms }}<\/strong>"
       },
       "products": "Produkty",
       "pages_and_articles": "Strony i artykuły"
@@ -94,9 +94,9 @@
       "remove": "Usuń",
       "note": "Specjalne instrukcje dla sprzedawcy",
       "taxes_and_shipping_at_checkout": "Podatki i koszty wysyłki obliczane przy kasie",
-      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\">koszyt wysyłki</a> obliczane przy kasie",
+      "taxes_and_shipping_policy_at_checkout_html": "Podatki i <a href=\"{{ link }}\">koszyt wysyłki<\/a> obliczane przy kasie",
       "taxes_included_but_shipping_at_checkout": "Podatek wliczony w cenę i wysyłka obliczona przy kasie",
-      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\">Koszt wysyłki</a> obliczony przy kasie.",
+      "taxes_included_and_shipping_policy_html": "Z wliczonym podatkiem. <a href=\"{{ link }}\">Koszt wysyłki<\/a> obliczony przy kasie.",
       "update": "Zaktualizuj koszyk",
       "checkout": "Realizuj zakupy",
       "empty": "Twój koszyk jest obecnie pusty.",
@@ -162,7 +162,7 @@
       "address1": "Adres 1",
       "address2": "Adres 2",
       "city": "Miasto",
-      "country": "Kraj/region",
+      "country": "Kraj\/region",
       "province": "Prowincja",
       "zip": "Kod pocztowy",
       "phone": "Telefon",
@@ -243,7 +243,7 @@
       "previous_slide": "Poprzedni slajd",
       "pause_slideshow": "Wstrzymaj pokaz slajdów",
       "play_slideshow": "Odtwórz pokaz slajdów",
-      "navigation_instructions": "Użyj strzałek w lewo/w prawo, aby poruszać się po pokazie slajdów lub przesuń palcem w lewo/w prawo, jeśli używasz urządzenia mobilnego",
+      "navigation_instructions": "Użyj strzałek w lewo\/w prawo, aby poruszać się po pokazie slajdów lub przesuń palcem w lewo\/w prawo, jeśli używasz urządzenia mobilnego",
       "slide_number": "Slajd {{ slide_number }}, obecny"
     },
     "onboarding": {
@@ -281,7 +281,7 @@
       "on_sale_from_html": "W sprzedaży od {{ price }}",
       "from_text_html": "Od {{ price }}",
       "include_taxes": "Z wliczonym podatkiem.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Koszt wysyłki</a> obliczony przy realizacji zakupu.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Koszt wysyłki<\/a> obliczony przy realizacji zakupu.",
       "quantity": "Ilość",
       "add_to_cart": "Dodaj do koszyka",
       "full_details": "Kompletne dane",
@@ -293,7 +293,7 @@
         "many": "Dostępne: {{ count }}"
       },
       "collection_return": "Powrót do {{ collection }}",
-      "product_added_to_cart_html": "Pozycję dodano do koszyka. <span>Wyświetl wózek i zrealizuj zakupy</span>.",
+      "product_added_to_cart_html": "Pozycję dodano do koszyka. <span>Wyświetl wózek i zrealizuj zakupy<\/span>.",
       "stock_unavailable": "Pozycji nie można dodać do koszyka, ponieważ nie ma jej w magazynie.",
       "unit_price_label": "Cena jednostkowa"
     }
@@ -317,7 +317,7 @@
       "get_directions": "Uzyskaj wskazówki",
       "address_error": "Błąd podczas wyszukiwania tego adresu",
       "address_no_results": "Brak wyników dla tego adresu",
-      "address_query_limit_html": "Przekroczono limit używania interfejsu API Google. Rozważ przejście do <a href=\"https://developers.google.com/maps/premium/usage-limits\">Planu Premium</a>.",
+      "address_query_limit_html": "Przekroczono limit używania interfejsu API Google. Rozważ przejście do <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Planu Premium<\/a>.",
       "auth_error_html": "Wystąpił problem z uwierzytelnianiem klucza API Google Maps."
     }
   },

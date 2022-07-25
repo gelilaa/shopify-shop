@@ -23,7 +23,7 @@
       "login_form_submit": "Ввести",
       "signup_form_email_label": "Электронный адрес",
       "signup_form_success": "Мы отправим вам письмо незадолго до открытия!",
-      "admin_link_html": "Вы владелец магазина? <a href=\"/admin\" class=\"text-link\">Войдите здесь</a>",
+      "admin_link_html": "Вы владелец магазина? <a href=\"\/admin\" class=\"text-link\">Войдите здесь<\/a>",
       "password_link": "Войдите с помощью пароля",
       "powered_by_shopify_html": "Этот магазин работает на платформе {{ shopify }}"
     },
@@ -47,10 +47,10 @@
       "submit": "Поиск",
       "read_more": "Подробнее",
       "results_count_html": {
-        "one": "Результатов по запросу &quot;<strong>{{ terms }}</strong>&quot;: {{ count }}",
-        "other": "Результатов по запросу &quot;<strong>{{ terms }}</strong>&quot;: {{ count }}",
-        "few": "Результатов по запросу &quot;<strong>{{ terms }}</strong>&quot;: {{ count }}",
-        "many": "Результатов по запросу &quot;<strong>{{ terms }}</strong>&quot;: {{ count }}"
+        "one": "Результатов по запросу &quot;<strong>{{ terms }}<\/strong>&quot;: {{ count }}",
+        "other": "Результатов по запросу &quot;<strong>{{ terms }}<\/strong>&quot;: {{ count }}",
+        "few": "Результатов по запросу &quot;<strong>{{ terms }}<\/strong>&quot;: {{ count }}",
+        "many": "Результатов по запросу &quot;<strong>{{ terms }}<\/strong>&quot;: {{ count }}"
       },
       "products": "Продукты",
       "pages_and_articles": "Страницы и статьи"
@@ -94,9 +94,9 @@
       "remove": "Удалить",
       "note": "Особые примечания для продавца",
       "taxes_and_shipping_at_checkout": "Налоги и стоимость доставки, рассчитанные при оформлении заказа",
-      "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\">стоимость доставки</a>, рассчитанные при оформлении заказа",
+      "taxes_and_shipping_policy_at_checkout_html": "Налоги и <a href=\"{{ link }}\">стоимость доставки<\/a>, рассчитанные при оформлении заказа",
       "taxes_included_but_shipping_at_checkout": "Сумма налога и стоимость доставки, рассчитанные при оформлении заказа",
-      "taxes_included_and_shipping_policy_html": "Налоги включены. <a href=\"{{ link }}\">Стоимость доставки</a>, рассчитанная при оформлении заказа.",
+      "taxes_included_and_shipping_policy_html": "Налоги включены. <a href=\"{{ link }}\">Стоимость доставки<\/a>, рассчитанная при оформлении заказа.",
       "update": "Обновить корзину",
       "checkout": "Оформить заказ",
       "empty": "Корзина пуста.",
@@ -162,7 +162,7 @@
       "address1": "Адрес1",
       "address2": "Адрес2",
       "city": "Город",
-      "country": "Страна/регион",
+      "country": "Страна\/регион",
       "province": "Область",
       "zip": "Почтовый индекс",
       "phone": "Телефон",
@@ -243,7 +243,7 @@
       "previous_slide": "Предыдущий слайд",
       "pause_slideshow": "Приостановить показ слайд-шоу",
       "play_slideshow": "Воспроизвести слайд-шоу",
-      "navigation_instructions": "Используйте стрелки влево/вправо для навигации по слайд-шоу или проведите влево/вправо, если вы используете мобильное устройство",
+      "navigation_instructions": "Используйте стрелки влево\/вправо для навигации по слайд-шоу или проведите влево\/вправо, если вы используете мобильное устройство",
       "slide_number": "Слайд {{ slide_number }}, текущий"
     },
     "onboarding": {
@@ -281,7 +281,7 @@
       "on_sale_from_html": "Акционная цена от {{ price }}",
       "from_text_html": "От {{ price }}",
       "include_taxes": "Сумма налога включена.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Стоимость доставки</a> рассчитывается при оформлении заказа.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Стоимость доставки<\/a> рассчитывается при оформлении заказа.",
       "quantity": "Количество",
       "add_to_cart": "Добавить в корзину",
       "full_details": "Вся информация",
@@ -293,7 +293,7 @@
         "many": "Доступно: {{ count }}"
       },
       "collection_return": "Вернуться к {{ collection }}",
-      "product_added_to_cart_html": "Товар добавлен в корзину. <span>Просмотреть корзину и оформить заказ.</span>",
+      "product_added_to_cart_html": "Товар добавлен в корзину. <span>Просмотреть корзину и оформить заказ.<\/span>",
       "stock_unavailable": "Не удалось добавить элемент в корзину — их недостаточно в наличии.",
       "unit_price_label": "Цена за единицу"
     }
@@ -317,7 +317,7 @@
       "get_directions": "Просмотреть маршрут",
       "address_error": "Не удалось найти этот адрес",
       "address_no_results": "Нет результатов для этого адреса",
-      "address_query_limit_html": "Вы превысили ограничение использования Google API. Рассмотрите переход на план уровня <a href=\"https://developers.google.com/maps/premium/usage-limits\">Премиум</a>.",
+      "address_query_limit_html": "Вы превысили ограничение использования Google API. Рассмотрите переход на план уровня <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Премиум<\/a>.",
       "auth_error_html": "Не удалось проверить ваш ключ API для Google Карт."
     }
   },
